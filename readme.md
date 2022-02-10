@@ -1,1 +1,3 @@
-# Ubuntu PHP 7.3 + MYSQL + MSSQL + ORACLE
+# Docker PHP image
+* Ubuntu 20.04
+* php 7.4
