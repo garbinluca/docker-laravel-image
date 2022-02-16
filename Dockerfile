@@ -17,6 +17,8 @@ RUN apt-get update -y && apt-get install -y \
      php7.3-json \
      php7.3-ldap \
      php7.3-mbstring \
+     php7.3-mysql \
+     php7.3-pgsql \
      php7.3-sqlite3 \
      php7.3-xml \
      php7.3-xsl \
