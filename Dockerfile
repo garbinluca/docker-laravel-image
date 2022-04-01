@@ -10,27 +10,24 @@ RUN apt-get update -y && apt-get install -y \
      curl \
      git \
      vim \
-     php7.3-cli \
-     php7.3 \
-     php7.3-curl \
-     php7.3-gd \
-     php7.3-json \
-     php7.3-ldap \
-     php7.3-mbstring \
-     php7.3-mysql \
-     php7.3-pgsql \
-     php7.3-sqlite3 \
-     php7.3-xml \
-     php7.3-xsl \
-     php7.3-zip \
-     php7.3-soap \
-     php7.3-imagick \
+     php8.1-cli \
+     php8.1 \
+     php8.1-curl \
+     php8.1-gd \
+     php8.1-ldap \
+     php8.1-mbstring \
+     php8.1-mysql \
+     php8.1-pgsql \
+     php8.1-sqlite3 \
+     php8.1-xml \
+     php8.1-xsl \
+     php8.1-zip \
+     php8.1-soap \
+     php8.1-imagick \
      ssh \
      php-pear \
-     php7.3-dev \
+     php8.1-dev \
      libaio1
-
-RUN pecl -v
 
 # Laravel PDF generator 1-devpendecies
 RUN apt-get install -y libxrender1 libfontconfig libxext6
